@@ -1026,7 +1026,7 @@ section .nav {
   content: "";
   width: 32px;
   height: 2px;
-  background: #aaaaaa;
+  background: rgb(170, 170, 170);
 }
 
 .modal-portfolio__close span:after {
@@ -1333,7 +1333,7 @@ section .nav {
   height: 100%;
   position: absolute;
   left: 50px;
-  background: #cecece;
+  background: rgb(206, 206, 206);
   z-index: 1;
 }
 
@@ -1386,7 +1386,7 @@ section .nav {
   width: 150px;
   border-radius: 50%;
   background: #fff;
-  border: 1px solid #cecece;
+  border: 1px solid rgb(206, 206, 206);
   -ms-grid-column-align: center;
       justify-self: center;
   display: -webkit-box;
@@ -2377,7 +2377,7 @@ section .nav {
   .modal-portfolio__close span:after,
   .modal-portfolio__close span:before {
     width: 25px;
-    background: dimgray;
+    background: rgb(105, 105, 105);
   }
 
   .modal-portfolio__view {
