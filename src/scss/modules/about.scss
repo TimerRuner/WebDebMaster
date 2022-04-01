@@ -1,0 +1,96 @@
+.about {
+    position: relative;
+    z-index: 999;
+    padding: 120px 0 60px 0;
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #f4f5f6 49%,
+        #ffffff 100%
+    );
+    @media (max-width: 767px) {
+        padding: 120px 0 45px 0;
+    }
+    &__navigation {
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    &__title {
+        margin: 0 0 30px 0;
+    }
+    &__img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto 20px auto;
+    }
+    &__text {
+        max-width: 740px;
+        margin: 0 auto 45px auto;
+        color: #616e7c;
+        line-height: 23px;
+        font-size: 18px;
+        &._active {
+            p:nth-of-type(1) {
+                transition: transform 0.3s ease;
+                transform: translateX(0);
+            }
+            p:nth-of-type(2) {
+                transition: transform 0.3s ease 0.2s;
+                transform: translateX(0);
+            }
+        }
+        p {
+            transform: translateX(200%);
+
+            margin: 0 0 30px 0;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+    &__download {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+    }
+    &__img-wrapper {
+        width: 13px;
+        height: 14px;
+        display: inline-block;
+        margin: 0 5px 0 0;
+    }
+    &__contact {
+        position: relative;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        white-space: wrap;
+        justify-content: space-between;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+    &__phone {
+        margin: 0 10px 0 0;
+        white-space: nowrap;
+        font-size: 20px;
+        transform: translateX(-300%);
+        transition: transform 0.3s ease;
+        &._active {
+            transform: translateX(0);
+        }
+        i {
+            color: #263646;
+        }
+        span {
+            padding: 0 0 0 10px;
+            font-size: 18px;
+            color: #263646;
+            white-space: nowrap;
+        }
+    }
+}

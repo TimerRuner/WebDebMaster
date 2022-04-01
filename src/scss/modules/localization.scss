@@ -1,0 +1,33 @@
+.localization {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    @media all and (max-width: 768px) {
+        padding: 5px;
+    }
+    &__item {
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        text-transform: uppercase;
+        margin: 0 5px 0 0;
+        font-weight: bold;
+        transition: background-color 0.2s ease, color 0.2s ease;
+        &:last-child {
+            margin: 0;
+        }
+        &:hover {
+            background-color: rgba($color: #ffffff, $alpha: 0.8);
+            color: #2c3e50;
+        }
+        &.active {
+            background-color: white;
+            color: #2c3e50;
+        }
+    }
+}

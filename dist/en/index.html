@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="../" />
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
+        <meta name="format-detection" content="telephone=no" />
+        <meta
+            name="description"
+            content="Професійна розробка Веб-сторінок, високоякісна адаптація сайту під будь-які розміри екранів, консультація стосовно дизайну, SEO оптимізація, чітка розробка згідно технічного завдання, консультація клієнта стосовно продукту"
+        />
+        <meta
+            name="keywords"
+            content="Front-End, верстка, адаптив, макет, дизайн, модульність, хостінг, лендінг, корпоративний сайт, сайт-візитка, багатосторінковий сайт, wordpress, js, html, css, jquery, react, vuejs"
+        />
+        <meta name="Author" content="Maslovskyi Vadym" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+        <link rel="canonical" href="./en/" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <title>Web Dev Master</title>
+    </head>
+    <body>
+        <main>
+            <section class="main" id="main">
+                <picture>
+                    <source
+                        srcset="img/backgrounds/main2.webp"
+                        type="image/webp"
+                    />
+                    <source
+                        srcset="img/backgrounds/main2.jpg"
+                        type="image/jpeg"
+                    />
+                    <img
+                        src="img/backgrounds/main2.jpg"
+                        class="main__bg desktop"
+                        alt="main-foto"
+                    />
+                </picture>
+                <picture>
+                    <source
+                        srcset="img/backgrounds/main2-mobile.webp"
+                        type="image/webp"
+                    />
+                    <source
+                        srcset="img/backgrounds/main2-mobile.jpg"
+                        type="image/jpeg"
+                    />
+                    <img
+                        src="img/backgrounds/main2-mobile.jpg"
+                        class="main__bg mobile"
+                        alt="main-foto"
+                    />
+                </picture>
+                <div class="container main__container">
+                    <div class="main__content">
+                        <div class="main__circle circle">
+                            <div class="circle__logo">
+                                <div class="circle__logo-wrapper">
+                                    <img
+                                        src="img/backgrounds/personal.jpg"
+                                        alt="personal photo"
+                                    />
+                                </div>
+                            </div>
+                            <div class="circle__text">
+                                <p>Front End Developer & React Developer</p>
+                            </div>
+                        </div>
+                        <div class="main__links links">
+                            <a href="#about" class="links__item button"
+                                >About Me</a
+                            >
+                            <a href="#portfolio" class="links__item button"
+                                >My Portfolio</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="localization">
+                    <a href="../" class="localization__item">UA</a
+                    ><a href="../ru/" class="localization__item">RU</a
+                    ><a href="./" class="localization__item active">EN</a>
+                </div>
+            </section>
+            <section class="about">
+                <span class="nav" id="about"></span>
+                <nav class="navigation about__navigation">
+                    <div class="container navigation__container">
+                        <div class="navigation__wrapper">
+                            <a href="#main" class="navigation__logo">
+                                Web Dev Master
+                            </a>
+                            <div class="navigation__menu menu">
+                                <div class="menu__body">
+                                    <ul class="menu__list">
+                                        <li class="menu__item">
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#services">Services</a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#skills">Skills</a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#experience">Experience</a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="#education">Education</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu__burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="about__content">
+                        <h2
+                            class="about__title title _anim-items _anim-no-hide"
+                        >
+                            Про мене
+                        </h2>
+
+                        <div class="about__text _anim-items _anim-no-hide">
+                            <p>
+                                My name is Vadim, I am Junior Front End
+                                developer. The main activity is implementation
+                                and updating of modern projects design
+                                requirements according to the layout and
+                                discussed terms of reference,
+                                self-implementation tablet and mobile versions
+                                of the project.
+                            </p>
+                            <p>
+                                To the main stack of technologies I use during
+                                development include: HTML5, CSS3 (SCSS, SASS,
+                                FlexBox, Grid, Responsive), JS (ES5, ES6 +),
+                                React (Hooks, React-router-dom), Redux,
+                                TypeScript. Basic knowledge of Bootstrap,
+                                Materialize. Experience using Firebase
+                                (authorization, use of databases, deployment).
+                                Active use of Gulp, Webpack
+                            </p>
+                        </div>
+                        <div class="about__contact">
+                            <a
+                                href="tel:0680331764"
+                                class="about__phone _anim-items _anim-no-hide"
+                            >
+                                <i class="fa-solid fa-phone-volume"></i
+                                ><span>+38(068)033-17-64</span>
+                            </a>
+                            <label
+                                for="social"
+                                class="social _anim-items _anim-no-hide"
+                            >
+                                <input type="checkbox" id="social" />
+                                <span class="social__share">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </span>
+                                <a
+                                    href="https://t.me/timeruner"
+                                    class="social__item telegram"
+                                    target="_blank"
+                                >
+                                    <span
+                                        ><i class="fa-brands fa-telegram"></i
+                                    ></span>
+                                </a>
+                                <a
+                                    href="viber://chat?number=%2B380680331764"
+                                    class="social__item viber"
+                                    target="_blank"
+                                    ><span
+                                        ><i
+                                            class="fa-brands fa-viber"
+                                        ></i></span
+                                ></a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services ibg">
+                <span class="nav" id="services"></span>
+                <img src="img/backgrounds/services_bg.jpg" alt="services" />
+                <div class="container services__container">
+                    <h2 class="services__title title _anim-items _anim-no-hide">
+                        Services
+                    </h2>
+                    <div class="services__row _anim-items _anim-no-hide">
+                        <div class="services__column column">
+                            <div class="column__img ibg">
+                                <img
+                                    src="./img/icons/laptop.svg"
+                                    alt="laptop"
+                                />
+                            </div>
+                            <h3 class="column__title">Web design</h3>
+                            <div class="column__text">
+                                Development of flexible, adaptive design of any
+                                kind complexity
+                            </div>
+                        </div>
+                        <div class="services__column column">
+                            <div class="column__img ibg">
+                                <img
+                                    src="./img/icons/development.svg"
+                                    alt="Development"
+                                />
+                            </div>
+                            <h3 class="column__title">Adaptability</h3>
+                            <div class="column__text">
+                                Creating a tablet and mobile version of the
+                                project without layout
+                            </div>
+                        </div>
+                        <div class="services__column column">
+                            <div class="column__img ibg">
+                                <img
+                                    src="./img/icons/branding.svg"
+                                    alt="branding"
+                                />
+                            </div>
+                            <h3 class="column__title">Quality</h3>
+                            <div class="column__text">
+                                Use of modern tools and templates to implement
+                                in order to save your costs and time
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <span class="nav" id="portfolio"></span>
+                <div class="container portfolio__container">
+                    <h2
+                        class="portfolio__title title _anim-items _anim-no-hide"
+                    >
+                        My Portfolio
+                    </h2>
+                    <div
+                        class="portfolio__categories categories _anim-items _anim-no-hide"
+                    >
+                        <ul class="categories__list">
+                            <li class="categories__item">
+                                <a class="active" href="#" data-filter="*"
+                                    >All</a
+                                >
+                            </li>
+                            <li class="categories__item">
+                                <a href="#" data-filter=".web">Web Design</a>
+                            </li>
+                            <li class="categories__item">
+                                <a href="#" data-filter=".app"
+                                    >React Development</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__items _anim-items _anim-no-hide">
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/fashion_jam/fashion_jam.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/fashion_jam/fashion_jam.webp
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/fashion_jam/fashion_jam.webp"
+                                        alt="web"
+                                        data-src="img/portfolio/web/fashion_jam/fashion_jam.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/fashion_jam/fashion_jam.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">FashionJam</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://timerruner.github.io/Fashion/"
+                                            class="hover__view"
+                                            target="_black"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/Fashion"
+                                            class="hover__code"
+                                            target="_black"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/grand_masteria/grand_masteria.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/grand_masteria/grand_masteria.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/grand_masteria/grand_masteria.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/grand_masteria/grand_masteria.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/grand_masteria/grand_masteria.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">GrandMasteria</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://grandmasteria.site/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/GrandMasteria"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/go_triop/go_triop.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/go_triop/go_triop.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/go_triop/go_triop.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/go_triop/go_triop.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/go_triop/go_triop.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">GoTrieop</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://timerruner.github.io/GoTrieop/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/GoTrieop"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/lux_trader/lux_traider.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/lux_trader/lux_traider.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/lux_trader/lux_traider.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/lux_trader/lux_trader.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/lux_trader/lux_trader.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">LuxTrader</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://timerruner.github.io/LuxTrading/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/LuxTrading"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/bike/bike.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="img/portfolio/web/bike/bike.jpg"
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/bike/bike.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/bike/bike.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/bike/bike.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">Bike</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://timerruner.github.io/Bike/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/Bike"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/the_winners/thewinners.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/the_winners/thewinners.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/the_winners/thewinners.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/the_winners/thewinners.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/the_winners/thewinners.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">TheWinners</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <h4 class="hover__by">by Magefan</h4>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://www.thewinners.com.ua/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/tehnobot/tehnobot.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/tehnobot/tehnobot.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/tehnobot/tehnobot.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/tehnobot/tehnobot.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/tehnobot/tehnobot.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">Tehnobot</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <h4 class="hover__by">by Magefan</h4>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://tehnobot.ua/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper web">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/goarmy/goarmy.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/web/goarmy/goarmy.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/web/goarmy/goarmy.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/web/goarmy/goarmy.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/web/goarmy/goarmy.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">Go Army</h2>
+                                    <h3 class="hover__categories">
+                                        Web Design
+                                    </h3>
+                                    <h4 class="hover__by">by ISITLab</h4>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://goarmy.te.ua/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper app">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/react-posts/react-post.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/react-posts/react-post.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/react-posts/react-post.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/react-posts/react-posts.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/react-posts/react-posts.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">React Posts</h2>
+                                    <h3 class="hover__categories">App</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://timerruner.github.io/ReactPosts/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/ReactPosts"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper app">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/github-react/github-react.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/github-react/github-react.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/github-react/github-react.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/github-react/github_react.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/github-react/github_react.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">
+                                        React GitHub Search
+                                    </h2>
+                                    <h3 class="hover__categories">App</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://timerruner.github.io/ReactGitHubSearch/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/ReactGitHubSearch"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper app">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/react-tasker/react-tasker.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/react-tasker/react-tasker.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/react-tasker/react-tasker.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/react-tasker/react-tasker.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/react-tasker/react-tasker.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">React Quizlet</h2>
+                                    <h3 class="hover__categories">App</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://react-quizlet-41cbc.web.app/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/ReactTasker"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <span class="nav" id="skills"></span>
+                <div class="container skills__container">
+                    <h2 class="skills__title title _anim-items _anim-no-hide">
+                        My Skills
+                    </h2>
+                    <div class="skills__wrapper _anim-items _anim-no-hide">
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart html">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">HTML</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart css">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">CSS</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart js">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">JS</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart jquery">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">jquery</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart react">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">React</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart ts">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">TypeScript</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="education">
+                <span class="nav" id="experience"></span>
+                <div class="container education__container">
+                    <h2
+                        class="education__title title _anim-items _anim-no-hide"
+                    >
+                        Experience
+                    </h2>
+                    <ul class="education__timeline timeline">
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    25 09 2020 <br />
+                                    - <br />
+                                    11 10 2020
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements right _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        Web-developer course at Udemy
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Font-End
+                                    </h4>
+                                </div>
+                                <div class="timeline__achievements-description">
+                                    <p>
+                                        During the course the work was mastered
+                                        with HTML, CSS (SCSS, FlexBox, Grid),
+                                        BEM, familiarity with the JS programming
+                                        language and GULP - builder of projects.
+                                        <br />
+                                        <a
+                                            href="img/certificate/frontend.pdf"
+                                            download
+                                            class="timeline__sertificate"
+                                            >Certificate</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    17 11 2020 <br />
+                                    - <br />
+                                    5 12 2020
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements left _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        JS course at Udemy
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Font-End
+                                    </h4>
+                                </div>
+                                <div class="timeline__achievements-description">
+                                    <p>
+                                        During the course the work was mastered
+                                        with JavaScript (Basic, DOM, AJAX, OOP,
+                                        MODULES), 3 training sessions were
+                                        implemented projects using of the above
+                                        technologies. Acquaintance with GitHub
+                                        and JS testing <br />
+                                        <a
+                                            href="img/certificate/js.pdf"
+                                            download
+                                            class="timeline__sertificate"
+                                            >Certificate</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    06 12 2020 <br />
+                                    - <br />
+                                    24 01 2021
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements right _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        Advanced JS course at Udemy
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Front-End Developer
+                                    </h4>
+                                </div>
+                                <div class="timeline__achievements-description">
+                                    <p>
+                                        At the end of the course acquired skills
+                                        in implementation of complex web
+                                        projects with lots of interactive and
+                                        functional elements. Implemented 3
+                                        projects using JS for implementation of
+                                        the technical task already finished
+                                        layout. Acquired skills implementation
+                                        of own plugins, writing functional in
+                                        modular and OOP styles.
+                                        <br />
+                                        <a
+                                            href="img/certificate/advancedJs.pdf"
+                                            download
+                                            class="timeline__sertificate"
+                                            >Certificate</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    14 05 2021 <br />
+                                    - <br />
+                                    20 12 2021
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements left _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        Magefan
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Front-End Developer
+                                    </h4>
+                                </div>
+                                <div class="timeline__achievements-description">
+                                    <p>
+                                        Front End development using HTML, CSS,
+                                        JS for online shopping at Magento
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    21 12 2021 <br />
+                                    - <br />
+                                    present
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements right _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        ISITLab
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Front-End Developer
+                                    </h4>
+                                </div>
+                                <div class="timeline__achievements-description">
+                                    <p>
+                                        Front-End Website Development admin
+                                        panels, web applications
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education pb-40">
+                <span class="nav" id="education"></span>
+                <div class="container education__container">
+                    <h2
+                        class="education__title title _anim-items _anim-no-hide"
+                    >
+                        EDUCATION
+                    </h2>
+                    <ul class="education__timeline timeline">
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hides"
+                            >
+                                <h3 class="timeline__data-info">
+                                    2007 <br />
+                                    - <br />
+                                    2010
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements left _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        School 10
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Elementary School
+                                    </h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    2010 <br />
+                                    - <br />
+                                    2017
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements right _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        Ternopil Ukrainian Gymnasium named after
+                                        Ivan Franko
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        Obtained a high school diploma education
+                                    </h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    2017 <br />
+                                    - <br />
+                                    2021
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements left _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        TNTU named after I. Pulyuya
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        He received a bachelor's degree
+                                    </h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline__item">
+                            <div
+                                class="timeline__data _anim-items _anim-no-hide"
+                            >
+                                <h3 class="timeline__data-info">
+                                    2021 <br />
+                                    - <br />
+                                    present
+                                </h3>
+                            </div>
+                            <div
+                                class="timeline__achievements right _anim-items _anim-no-hide"
+                            >
+                                <div class="timeline__achievements-head">
+                                    <h4 class="timeline__achievements-header">
+                                        TNTU named after I. Pulyuya
+                                    </h4>
+                                    <h4
+                                        class="timeline__achievements-subheader"
+                                    >
+                                        The process of obtaining a master's
+                                        degree
+                                    </h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="overlay">
+                <div class="modal modal-portfolio">
+                    <div class="modal-portfolio__wrapper">
+                        <span class="modal-portfolio__close">
+                            <span></span>
+                        </span>
+
+                        <div class="modal-portfolio__img">
+                            <img
+                                src="img/portfolio/web/01.jpg"
+                                alt="background"
+                                class="modal-portfolio__bg"
+                            />
+                        </div>
+                        <div class="modal-portfolio__content">
+                            <div class="portfolio__titles">
+                                <h2 class="modal-portfolio__title">
+                                    <span>Project Title</span
+                                    ><span class="modal-portfolio__by"></span>
+                                </h2>
+                                <h3 class="modal-portfolio__categories">
+                                    <span>Web Design</span>
+                                </h3>
+                            </div>
+                            <div class="modal-portfolio__links">
+                                <a
+                                    href=""
+                                    class="modal-portfolio__view bubu"
+                                    target="_blank"
+                                >
+                                    <img
+                                        class="modal-portfolio__view-img"
+                                        src="./img/icons/search.svg"
+                                        alt="view"
+                                    />
+                                </a>
+                                <a
+                                    href=""
+                                    class="modal-portfolio__code bubu"
+                                    target="_blank"
+                                >
+                                    <img
+                                        class="modal-portfolio__code-img"
+                                        src="./img/icons/development-orange.svg"
+                                        alt="code"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="footer">
+            <div class="footer__wrapper container">
+                <a href="tel:0680331764" class="footer__phone">
+                    <i class="fa-solid fa-phone-volume"></i
+                    ><span>+38(068)033-17-64</span>
+                </a>
+                <div class="footer__social">
+                    <a
+                        href="https://t.me/timeruner"
+                        class="footer__item telegram fa-brands fa-telegram"
+                        target="_blank"
+                    >
+                    </a>
+                    <a
+                        href="viber://chat?number=%2B380680331764"
+                        class="footer__item viber fa-brands fa-viber"
+                        target="_blank"
+                    ></a>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"
+            integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="js/app.min.js"></script>
+    </body>
+</html>
