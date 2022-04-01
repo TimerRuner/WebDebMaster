@@ -17,6 +17,32 @@
             content="Front-End, верстка, адаптив, макет, дизайн, модульність, хостінг, лендінг, корпоративний сайт, сайт-візитка, багатосторінковий сайт, wordpress, js, html, css, jquery, react, vuejs"
         />
         <meta name="Author" content="Maslovskyi Vadym" />
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="WebDevMaster" />
+        <meta
+            name="description"
+            content="Професійна розробка Веб-сторінок, високоякісна адаптація сайту під будь-які розміри екранів, консультація стосовно дизайну, SEO оптимізація, чітка розробка згідно технічного завдання, консультація клієнта стосовно продукту"
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:title" content="WebDevMaster" />
+        <meta
+            property="og:description"
+            content="Професійна розробка Веб-сторінок, високоякісна адаптація сайту під будь-які розміри екранів, консультація стосовно дизайну, SEO оптимізація, чітка розробка згідно технічного завдання, консультація клієнта стосовно продукту"
+        />
+        <meta property="og:image" content="img/portfolio/cv.jpg" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:title" content="WebDevMaster" />
+        <meta
+            property="twitter:description"
+            content="Професійна розробка Веб-сторінок, високоякісна адаптація сайту під будь-які розміри екранів, консультація стосовно дизайну, SEO оптимізація, чітка розробка згідно технічного завдання, консультація клієнта стосовно продукту"
+        />
+        <meta property="twitter:image" content="img/portfolio/cv.jpg" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -66,10 +92,24 @@
                         <div class="main__circle circle">
                             <div class="circle__logo">
                                 <div class="circle__logo-wrapper">
-                                    <img
-                                        src="img/backgrounds/personal.jpg"
-                                        alt="personal photo"
-                                    />
+                                    <picture>
+                                        <source
+                                            srcset="
+                                                img/backgrounds/personal.webp
+                                            "
+                                            type="image/webp"
+                                        />
+                                        <source
+                                            srcset="
+                                                img/backgrounds/personal.jpg
+                                            "
+                                            type="image/jpeg"
+                                        />
+                                        <img
+                                            src="img/backgrounds/personal.jpg"
+                                            alt="personal photo"
+                                        />
+                                    </picture>
                                 </div>
                             </div>
                             <div class="circle__text">

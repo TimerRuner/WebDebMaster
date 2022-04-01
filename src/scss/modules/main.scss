@@ -15,6 +15,10 @@
         .main__container {
             opacity: 1;
         }
+        .main__localization {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
     @media (max-height: 1080px) {
         min-height: 100vh;
@@ -30,6 +34,7 @@
     picture img.mobile {
         display: none;
     }
+
     &__circle {
         margin: 0 0 40px 0;
         transition: transform 0.3s ease 0.3s;

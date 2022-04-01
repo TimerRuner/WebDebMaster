@@ -5,7 +5,6 @@ const setData = (modal, { title, categories, view, code, src, by }) => {
     modal
         .querySelector(".modal-portfolio__view")
         .setAttribute("href", `${view}`)
-    console.log(code)
     if (code) {
         modal.querySelector(".modal-portfolio__code").classList.remove("_hide")
         modal.querySelector(".modal-portfolio__code").href = code

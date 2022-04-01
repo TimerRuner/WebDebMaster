@@ -7,7 +7,6 @@ const getDataModal = (getSelector) => {
             .querySelector(".portfolio__img")
             .getAttribute("data-src")
     let code = null
-    console.log(getSelector.querySelector(".hover__code"))
     if (getSelector.querySelector(".hover__code")) {
         code = getSelector.querySelector(".hover__code").getAttribute("href")
     }

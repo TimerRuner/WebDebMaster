@@ -6,8 +6,15 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.2s ease 0.7s, transform 0.2s ease 0.7s;
+    ._loaded & {
+        transform: translateY(0);
+        opacity: 1;
+    }
     @media all and (max-width: 768px) {
-        padding: 5px;
+        padding: 10px;
     }
     &__item {
         color: white;
