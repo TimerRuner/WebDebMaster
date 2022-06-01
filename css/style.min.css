@@ -1245,6 +1245,18 @@ section .nav {
   transition: all 0.3s ease 1s;
 }
 
+.skills__wrapper._active .skills__item:nth-of-type(7) {
+  -webkit-transition: all 0.3s ease 1.2s;
+  -o-transition: all 0.3s ease 1.2s;
+  transition: all 0.3s ease 1.2s;
+}
+
+.skills__wrapper._active .skills__item:nth-of-type(8) {
+  -webkit-transition: all 0.3s ease 1.4s;
+  -o-transition: all 0.3s ease 1.4s;
+  transition: all 0.3s ease 1.4s;
+}
+
 .skills__item {
   -webkit-transform: translateX(1000%);
       -ms-transform: translateX(1000%);
