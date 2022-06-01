@@ -890,6 +890,8 @@ section .nav {
   font-size: 14px;
   font-weight: 400;
   margin: 0 0 15px 0;
+  display: inline-block;
+  color: white;
 }
 
 .hover__categories {
@@ -1255,6 +1257,12 @@ section .nav {
   -webkit-transition: all 0.3s ease 1.4s;
   -o-transition: all 0.3s ease 1.4s;
   transition: all 0.3s ease 1.4s;
+}
+
+.skills__wrapper._active .skills__item:nth-of-type(9) {
+  -webkit-transition: all 0.3s ease 1.6s;
+  -o-transition: all 0.3s ease 1.6s;
+  transition: all 0.3s ease 1.6s;
 }
 
 .skills__item {
