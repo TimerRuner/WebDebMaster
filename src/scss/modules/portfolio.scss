@@ -112,7 +112,7 @@
                 .portfolio__hover {
                     @media (min-width: 993px) {
                         opacity: 1;
-                        display: block;
+                        display: flex;
                     }
                 }
                 .hover__title {
