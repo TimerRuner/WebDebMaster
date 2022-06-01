@@ -161,7 +161,8 @@
                                 К основному стеку технологий, которыми пользуюсь
                                 при разработке можно отнести: HTML5, CSS3 (SCSS,
                                 SASS, FlexBox, Grid, Responsive), JS (ES5,
-                                ES6+), React (Hooks, React-router-dom), Redux,
+                                ES6+), React (Hooks, React-router-dom), Next.js,
+                                React Native, React Navigation, Expo, Redux,
                                 TypeScript. Базовые знания Bootstrap,
                                 Materialize. Опыт использования Firebase
                                 (авторизация, использование баз данных, деплой).
@@ -264,23 +265,39 @@
                     <h2
                         class="portfolio__title title _anim-items _anim-no-hide"
                     >
-                        Портфолио
+                        Портфоліо
                     </h2>
                     <div
                         class="portfolio__categories categories _anim-items _anim-no-hide"
                     >
                         <ul class="categories__list">
                             <li class="categories__item">
-                                <a class="active" href="#" data-filter="*"
+                                <a
+                                    class="active"
+                                    href="#"
+                                    rel="nofollow"
+                                    data-filter="*"
                                     >All</a
                                 >
                             </li>
                             <li class="categories__item">
-                                <a href="#" data-filter=".web">Web Design</a>
+                                <a href="#" rel="nofollow" data-filter=".web"
+                                    >Web Design</a
+                                >
                             </li>
                             <li class="categories__item">
-                                <a href="#" data-filter=".app"
-                                    >React Development</a
+                                <a href="#" rel="nofollow" data-filter=".app"
+                                    >React</a
+                                >
+                            </li>
+                            <li class="categories__item">
+                                <a href="#" rel="nofollow" data-filter=".next"
+                                    >Next</a
+                                >
+                            </li>
+                            <li class="categories__item">
+                                <a href="#" rel="nofollow" data-filter=".native"
+                                    >Native</a
                                 >
                             </li>
                         </ul>
@@ -900,6 +917,234 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="portfolio__item-wrapper app">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/react-cinema/react-cinema.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/react-cinema/react-cinema.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/react-cinema/react-cinema.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/react-cinema/react-cinema.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/react-cinema/react-cinema.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">React Cinema</h2>
+                                    <h3 class="hover__categories">App</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://cinema-react-app.herokuapp.com/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/Cinema"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper next">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/next-english/next-game.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/next-english/next-game.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/next-english/next-game.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/next-english/next-game.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/next-english/next-game.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">Next English</h2>
+                                    <h3 class="hover__categories">Next</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://react-game-next.herokuapp.com/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/next-english-game"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper next">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/next-avocado/next-web.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/next-avocado/next-web.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/next-avocado/next-web.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/next-avocado/next-web.gif"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/next-avocado/next-web.gif"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">Next Webpage</h2>
+                                    <h3 class="hover__categories">Next</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://next-avocado-lac.vercel.app/"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/next-avocado"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item-wrapper native">
+                            <div class="portfolio__item">
+                                <picture>
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/native-posts/native-post.webp
+                                        "
+                                        type="image/webp"
+                                    />
+                                    <source
+                                        srcset="
+                                            img/portfolio/app/native-posts/native-posts.jpg
+                                        "
+                                        type="image/jpeg"
+                                    />
+                                    <img
+                                        class="portfolio__img unhovering"
+                                        src="img/portfolio/app/native-posts/native-posts.jpg"
+                                        alt="web"
+                                        data-src="img/portfolio/app/native-posts/native-posts.jpg"
+                                    />
+                                </picture>
+                                <img
+                                    src="img/portfolio/app/native-posts/native-posts.jpg"
+                                    class="portfolio__img hovering"
+                                    alt="gif"
+                                />
+                                <div class="portfolio__hover hover">
+                                    <h2 class="hover__title">Native posts</h2>
+                                    <h3 class="hover__categories">Native</h3>
+                                    <div class="hover__links">
+                                        <a
+                                            href="https://expo.dev/@vadimas/react-native-post?serviceType=c"
+                                            class="hover__view"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__view-img"
+                                                src="./img/icons/search.svg"
+                                                alt="view"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/TimerRuner/native-post-app"
+                                            class="hover__code"
+                                            target="_blank"
+                                        >
+                                            <img
+                                                class="hover__code-img"
+                                                src="./img/icons/development-orange.svg"
+                                                alt="code"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -943,17 +1188,7 @@
                             </div>
                             <h4 class="skills__item-title">JS</h4>
                         </div>
-                        <div class="skills__item">
-                            <div class="skills__item-chart chart jquery">
-                                <div class="bar"></div>
-                                <div class="chart__body">
-                                    <div class="chart__counter">
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h4 class="skills__item-title">jquery</h4>
-                        </div>
+
                         <div class="skills__item">
                             <div class="skills__item-chart chart react">
                                 <div class="bar"></div>
@@ -964,6 +1199,28 @@
                                 </div>
                             </div>
                             <h4 class="skills__item-title">React</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart next">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">Next.js</h4>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-chart chart native">
+                                <div class="bar"></div>
+                                <div class="chart__body">
+                                    <div class="chart__counter">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="skills__item-title">React Native</h4>
                         </div>
                         <div class="skills__item">
                             <div class="skills__item-chart chart ts">

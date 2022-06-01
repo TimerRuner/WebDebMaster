@@ -1,4 +1,5 @@
 const elements = document.querySelectorAll(".chart .bar")
+console.log(elements)
 let options = {
     startAngle: -1.55,
     size: 150,
@@ -18,13 +19,16 @@ $(".css .bar").circleProgress({
     value: 0.85,
 })
 $(".js .bar").circleProgress({
-    value: 0.7,
-})
-$(".jquery .bar").circleProgress({
-    value: 0.6,
+    value: 0.8,
 })
 $(".react .bar").circleProgress({
+    value: 0.7,
+})
+$(".next .bar").circleProgress({
     value: 0.5,
+})
+$(".native .bar").circleProgress({
+    value: 0.4,
 })
 $(".ts .bar").circleProgress({
     value: 0.5,
