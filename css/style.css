@@ -869,6 +869,19 @@ section .nav {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hover__title {
@@ -892,6 +905,7 @@ section .nav {
   margin: 0 0 15px 0;
   display: inline-block;
   color: white;
+  text-decoration: underline;
 }
 
 .hover__categories {
@@ -2136,7 +2150,9 @@ section .nav {
 @media (min-width: 993px) and (min-width: 993px) {
   .portfolio__item:not(.mobile):hover .portfolio__hover {
     opacity: 1;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
