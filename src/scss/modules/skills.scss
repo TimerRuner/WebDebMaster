@@ -40,6 +40,9 @@
             .skills__item:nth-of-type(8) {
                 transition: all 0.3s ease 1.4s;
             }
+            .skills__item:nth-of-type(9) {
+                transition: all 0.3s ease 1.6s;
+            }
         }
         @media (max-width: 746px) {
             justify-content: space-around;
