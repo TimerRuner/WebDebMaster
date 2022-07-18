@@ -2427,11 +2427,11 @@ section .nav {
 
     .about__contact {
         flex-direction: column-reverse;
-        justify-content: flex-end;
+        justify-content: center;
     }
 
     .about__links {
-        justify-content: flex-end;
+        justify-content: center;
     }
 
     .about__links a {
