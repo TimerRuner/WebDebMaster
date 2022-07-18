@@ -66,13 +66,16 @@
     }
     &__contact {
         position: relative;
-        height: 50px;
         display: flex;
         align-items: center;
         white-space: wrap;
         justify-content: space-between;
         max-width: 740px;
         margin: 0 auto;
+        @media all and (max-width: 568px) {
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+        }
     }
     &__phone {
         margin: 0 10px 0 0;
@@ -91,6 +94,18 @@
             font-size: 18px;
             color: #263646;
             white-space: nowrap;
+        }
+    }
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        @media all and (max-width: 568px) {
+            justify-content: flex-end;
+        }
+        a {
+            padding: 10px 0;
         }
     }
 }
