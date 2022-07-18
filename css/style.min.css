@@ -2430,6 +2430,11 @@ section .nav {
         justify-content: center;
     }
 
+    .footer__phone {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
     .footer__phone span {
         display: none;
     }
