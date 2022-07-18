@@ -2430,6 +2430,13 @@ section .nav {
         justify-content: center;
     }
 
+    .footer__phone span {
+        display: none;
+    }
+    .footer__wrapper {
+        justify-content: flex-end;
+    }
+
     .about__links {
         justify-content: center;
     }
