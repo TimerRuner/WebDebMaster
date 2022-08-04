@@ -1,8 +1,8 @@
-import del from "del"
+import { deleteSync } from "del"
 import zipPlugin from "gulp-zip"
 
-export const zip = () => {
-    del(`./${app.path.rootFolder}.zip`)
+export const zip = async () => {
+    await deleteSync([`./${app.path.rootFolder}.zip`, { dryRun: true }])
     return app.gulp
         .src(`${app.path.buildFolder}/**/*.*`, {})
         .pipe(

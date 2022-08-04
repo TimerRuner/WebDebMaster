@@ -1,4 +1,4 @@
-import del from "del"
-export const reset = () => {
-    return del(app.path.clean)
+import { deleteSync } from "del"
+export const reset = async () => {
+    return await deleteSync([app.path.clean], { dryRun: true })
 }

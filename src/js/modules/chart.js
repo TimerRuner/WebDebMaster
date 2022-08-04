@@ -33,3 +33,27 @@ $(".native .bar").circleProgress({
 $(".ts .bar").circleProgress({
     value: 0.5,
 })
+$(".node .bar").circleProgress({
+    value: 0.5,
+})
+$(".express .bar").circleProgress({
+    value: 0.5,
+})
+$(".mysql .bar").circleProgress({
+    value: 0.6,
+})
+$(".posgtre .bar").circleProgress({
+    value: 0.6,
+})
+$(".mongo .bar").circleProgress({
+    value: 0.6,
+})
+$(".knex .bar").circleProgress({
+    value: 0.4,
+})
+$(".graph .bar").circleProgress({
+    value: 0.3,
+})
+$(".webs .bar").circleProgress({
+    value: 0.4,
+})
