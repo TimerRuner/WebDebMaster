@@ -42,7 +42,7 @@ $(".express .bar").circleProgress({
 $(".mysql .bar").circleProgress({
     value: 0.6,
 })
-$(".posgtre .bar").circleProgress({
+$(".postgre .bar").circleProgress({
     value: 0.6,
 })
 $(".mongo .bar").circleProgress({
