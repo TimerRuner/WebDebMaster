@@ -27,9 +27,6 @@ $(".react .bar").circleProgress({
 $(".next .bar").circleProgress({
     value: 0.6,
 })
-$(".native .bar").circleProgress({
-    value: 0.4,
-})
 $(".ts .bar").circleProgress({
     value: 0.5,
 })
