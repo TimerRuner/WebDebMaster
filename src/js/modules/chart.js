@@ -16,16 +16,16 @@ $(".chart .bar")
     })
 
 $(".css .bar").circleProgress({
-    value: 0.85,
+    value: 0.9,
 })
 $(".js .bar").circleProgress({
-    value: 0.8,
+    value: 0.85,
 })
 $(".react .bar").circleProgress({
     value: 0.7,
 })
 $(".next .bar").circleProgress({
-    value: 0.5,
+    value: 0.6,
 })
 $(".native .bar").circleProgress({
     value: 0.4,
@@ -48,12 +48,9 @@ $(".mongo .bar").circleProgress({
 $(".postgre .bar").circleProgress({
     value: 0.7,
 })
-$(".knex .bar").circleProgress({
-    value: 0.4,
-})
 $(".graph .bar").circleProgress({
-    value: 0.3,
+    value: 0.45,
 })
 $(".webs .bar").circleProgress({
-    value: 0.4,
+    value: 0.5,
 })
